@@ -28,4 +28,4 @@ Data will be saved in `data.json`.
 
 ## License
 
-MIT (or add your preferred license here)
+MIT
