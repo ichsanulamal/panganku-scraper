@@ -1,6 +1,35 @@
 {
+  "name": "panganku-scraper",
+  "version": "1.0.0",
+  "description": "High-performance, resilient concurrent Node.js scraper for panganku.org (the official Indonesian food nutrition database).",
+  "main": "panganku.js",
+  "scripts": {
+    "start": "node panganku.js",
+    "clean": "node clean_existing_data.js"
+  },
+  "keywords": [
+    "panganku",
+    "scraper",
+    "web-scraper",
+    "indonesia",
+    "nutrition",
+    "dataset",
+    "cheerio",
+    "axios"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichsedge/panganku-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nichsedge/panganku-scraper/issues"
+  },
+  "homepage": "https://github.com/nichsedge/panganku-scraper#readme",
   "dependencies": {
     "axios": "^1.9.0",
     "cheerio": "^1.0.0"
   }
 }
+
